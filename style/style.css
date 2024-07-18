@@ -215,7 +215,8 @@ span {
 }
 
 .habit-section-title,
-.title {
+.title,
+.title1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
@@ -277,6 +278,7 @@ border: 2px solid white;
 }
 
 .title,
+.title1
 .description {
     margin-bottom: 30px;
 }

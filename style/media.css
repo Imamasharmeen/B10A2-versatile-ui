@@ -1,4 +1,3 @@
-
 /*responsive for small device*/
 @media screen and (max-width: 576px) {
     .header-section {
@@ -26,7 +25,6 @@
 
     .banner-img {
         width: 100%;
-        
         padding-top: 50px;
     }
 
@@ -67,6 +65,7 @@
         font-size: .8rem;
         font-weight: 400;
     }
+
     /* habit section*/
     .habit-section-title,
     .title {
@@ -74,46 +73,82 @@
         font-size: 2rem;
         font-weight: 900;
     }
+
     .habit-section-image {
-       flex-direction: column;  
+        flex-direction: column;
     }
-    
-    #btn{
+
+    #btn {
         display: flex;
-    
+
     }
-    .button {  
+
+    .button {
         font-size: 1rem;
         font-weight: 500;
         padding: 13px 30px;
     }
-    
+
     .button-2 {
         font-size: 1rem;
         font-weight: 500;
         padding: 13px 30px;
-        
+
     }
-    .run-section-content{
+
+    .run-section-content {
         flex-direction: column;
         width: 85%;
     }
-    .run-section-text{
+
+    .run-section-text {
         width: auto;
         padding: 30px;
-       
+
     }
-    .run-section-img{
+
+    .run-section-img {
         width: auto;
         padding: 5px;
-        
+
     }
-    .run-button{
+
+    .run-button,
+    .body-info button {
         width: 100%;
     }
-    .bmi-calculator{
+
+    .bmi-calculator {
         width: 85%;
-        margin: 0 auto;
+        margin: 10px auto 20px;
+        
     }
+
+    .bmi-title,
+    .title1 {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+    .bmi-section-content{
+        flex-direction: column;
+        padding: 0;
+        width: 85%;
+        
+    }
+    .bmi-table,
+    .body-info {
+        width: 100%;
+        margin: 20px 0;
     
+    }
+    .info {
+        font-size: 10px;
+        padding: 7px 8px;
+    }
+    .body-info button{
+        width
+    }
+
 }
