@@ -105,8 +105,7 @@ span {
 }
 
 .button {
-    width: 14rem;
-    height: 4rem;
+    padding: 18px 40px;
     border-radius: 42px;
     border: none;
     color: rgb(255, 255, 255);
@@ -117,14 +116,14 @@ span {
 }
 
 .button-2 {
-    width: 14rem;
-    height: 4rem;
-    border-radius: 42px;
+
     border: 2px solid whitesmoke;
     color: rgb(255, 255, 255);
     background-color: #1A1A1A;
     font-size: 1.2rem;
     font-weight: 600;
+    padding: 18px 40px;
+    border-radius: 42px;
 }
 
 .banner-img {
@@ -203,7 +202,6 @@ span {
 }
 
 .habit-section-text {
-    border: 2px solid white;
     width: 80%;
     margin: 0 auto; 
     padding: 50px 0;
@@ -212,7 +210,7 @@ span {
     
 .habit-section-title {
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -224,7 +222,7 @@ span {
 }
 
 .habit-section-image {
-    border: 2px solid white;
+    
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -245,7 +243,8 @@ span {
 
 
 
-/*habit section ends here*/
+/*habit section ends here  
+border: 2px solid white;
 /*habit section starts here */
 
 /*Shared style ends here*/
@@ -267,7 +266,7 @@ span {
 /*responsive for small device*/
 @media screen and (max-width: 576px) {
     .header-section {
-        padding: 55px 30px 50px;
+        padding: 55px 20px 50px;
     }
 
     .nav-container {
@@ -287,7 +286,6 @@ span {
     span {
         font-size: 3rem;
         padding-top: 30px;
-
     }
 
     .banner-img {
@@ -319,7 +317,7 @@ span {
 
     .tutorial-2 {
         bottom: 400px;
-        left: 275px;
+        left: 175px;
     }
 
     .tutorial-2 h4 {
@@ -333,5 +331,32 @@ span {
         font-size: .9rem;
         font-weight: 400;
     }
-
+    /* habit section*/
+    .habit-section-title {
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .habit-section-image {
+       flex-direction: column;  
+    }
+    .habit-section-text{
+        
+    }
+    #btn{
+        display: flex;
+    
+    }
+    .button {  
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 13px 30px;
+    }
+    
+    .button-2 {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 13px 30px;
+        
+    }
 }
