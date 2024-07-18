@@ -15,6 +15,9 @@ body {
     padding: 0;
 
 }
+.bg-color{
+    background-color: #000000;
+}
 
 .mobile-responsive {
     display: none;
@@ -30,7 +33,6 @@ body {
 /* nav section starts here*/
 
 .nav-container {
-
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -112,18 +114,18 @@ span {
     background-color: rgb(230, 83, 60);
     font-size: 1.2rem;
     font-weight: 600;
-
 }
 
 .button-2 {
-
+    padding: 18px 40px;
+    border-radius: 42px;
     border: 2px solid whitesmoke;
     color: rgb(255, 255, 255);
     background-color: #1A1A1A;
     font-size: 1.2rem;
     font-weight: 600;
-    padding: 18px 40px;
-    border-radius: 42px;
+    
+    
 }
 
 .banner-img {
@@ -134,7 +136,7 @@ span {
 
 .banner-img img {
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 0;
 }
 
 .tutorial-1 {
@@ -147,6 +149,7 @@ span {
     bottom: 70px;
     left: -110px;
     display: flex;
+    gap: 10px;
     align-items: center;
     padding: 28px 23px;
 }
@@ -197,9 +200,7 @@ span {
 /*header section ends here*/
 /*habit section starts here */
 
-.habit-section{
-    background-color: #000000;
-}
+
 
 .habit-section-text {
     width: 80%;
@@ -208,14 +209,15 @@ span {
     text-align: center;
 }
     
-.habit-section-title {
+.habit-section-title, .title {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
 }
 
 .habit-description,
-.habit-images p {
+.habit-images p, 
+.description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 400;
@@ -245,118 +247,65 @@ span {
 
 /*habit section ends here  
 border: 2px solid white;
-/*habit section starts here */
+/*Run section starts here */
 
-/*Shared style ends here*/
-/*Header section start here */
-
-
-/*Shared style ends here*/
-/*Header section start here */
-
-
-
-/*Shared style ends here*/
-/*Header section start here */
-
-/*Shared style ends here*/
-/*Header section start here */
-
-
-/*responsive for small device*/
-@media screen and (max-width: 576px) {
-    .header-section {
-        padding: 55px 20px 50px;
-    }
-
-    .nav-container {
-        display: none;
-    }
-
-    .mobile-responsive {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .banner-section {
-        flex-direction: column;
-    }
-
-    .banner-title,
-    span {
-        font-size: 3rem;
-        padding-top: 30px;
-    }
-
-    .banner-img {
-        width: 100%;
-        position: relative;
-        padding-top: 50px;
-    }
-
-    .banner-img img {
-        width: 90%;
-    }
-
-    .tutorial-1 {
-        bottom: 100px;
-        left: 20px;
-    }
-
-    .tutorial-1 p {
-        color: rgb(250, 250, 249);
-        font-size: 1.3rem;
-        font-weight: 900;
-    }
-
-    .tutorial-1 h4 {
-        color: rgba(239, 237, 232, 0.65);
-        font-size: 1rem;
-        font-weight: 400;
-    }
-
-    .tutorial-2 {
-        bottom: 400px;
-        left: 175px;
-    }
-
-    .tutorial-2 h4 {
-        color: rgb(255, 255, 255);
-        font-size: 3rem;
-        font-weight: 900;
-    }
-
-    .tutorial-2 p {
-        color: rgba(255, 255, 255, 0.65);
-        font-size: .9rem;
-        font-weight: 400;
-    }
-    /* habit section*/
-    .habit-section-title {
-        color: rgb(255, 255, 255);
-        font-size: 2rem;
-        font-weight: 900;
-    }
-    .habit-section-image {
-       flex-direction: column;  
-    }
-    .habit-section-text{
-        
-    }
-    #btn{
-        display: flex;
-    
-    }
-    .button {  
-        font-size: 1rem;
-        font-weight: 500;
-        padding: 13px 30px;
-    }
-    
-    .button-2 {
-        font-size: 1rem;
-        font-weight: 500;
-        padding: 13px 30px;
-        
-    }
+.run-section{
+    margin: 0 auto;
+    background-color: #000000;
 }
+.run-section-content{
+    background-color: #222222;
+    width: 80%;
+    margin:  90px auto;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;  
+}
+.run-section-text{
+    width: 40%;
+    padding: 50px;
+   
+}
+
+.title,
+.description{
+    margin-bottom: 30px;  
+}
+
+.run-section-img{
+    width: 40%;
+    margin: 30px;
+}
+
+.run-section-img img{
+    border-radius: 18px;
+    width: 100%;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Shared style ends here*/
+/*Header section start here */
+
+
+/*Shared style ends here*/
+/*Header section start here */
+
+
+
+/*Shared style ends here*/
+/*Header section start here */
+
+/*Shared style ends here*/
+/*Header section start here */
+
