@@ -131,24 +131,34 @@
         font-weight: 900;
         margin-bottom: 30px;
     }
+
     .bmi-section-content{
         flex-direction: column;
         padding: 0;
         width: 85%;
-        
     }
+
     .bmi-table,
     .body-info {
         width: 100%;
         margin: 20px 0;
-    
     }
+
     .info {
         font-size: 10px;
         padding: 7px 8px;
     }
-    .body-info button{
-        width
+
+    .meet-section{
+        margin: 65px auto;
+        padding-bottom: 3px;
+    }
+    .meet-section-text {
+        width: 80%;
+    }
+    .meet-section-img {
+        grid-template-columns: repeat(1, 1fr);
+        
     }
 
 }

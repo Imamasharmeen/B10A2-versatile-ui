@@ -278,8 +278,7 @@ border: 2px solid white;
 }
 
 .title,
-.title1
-.description {
+.title1 .description {
     margin-bottom: 30px;
 }
 
@@ -316,13 +315,10 @@ border: 2px solid white;
     padding: 50px;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .bmi-table {
     width: 35%;
-
 }
 
 table {
@@ -333,7 +329,6 @@ th,
 td {
     padding: 10px 20px;
     border: 2px solid #353434;
-
 }
 
 th {
@@ -341,8 +336,8 @@ th {
     text-align: left;
 }
 
-td {
-    color: #696969;
+td, .trainer-info p  {
+    color: #ada2a2;
 }
 
 .bmi-title {
@@ -366,7 +361,6 @@ td {
         "info-3 info-4"
         "info-5 info-5"
     ;
-
 }
 
 .info-1 {
@@ -408,18 +402,65 @@ td {
 }
 
 
+/*BMI section ends here*/
+/*Meet section start here */
+
+.meet-section {
+    width: 100%;
+    margin: 88px auto;
+}
+
+.meet-section-text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.meet-section-img {
+    background-color: #222222;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 88px auto;
+    width: 80%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.meet-trainer {
+    position: relative;
+}
+
+.meet-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.trainer-info h2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+.trainer-info{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
 
 
 
 
 
 
-/*Shared style ends here*/
-/*Header section start here */
 
 
 
-/*Shared style ends here*/
+
+
+/*Meet style ends here*/
 /*Header section start here */
 
 /*Shared style ends here*/
