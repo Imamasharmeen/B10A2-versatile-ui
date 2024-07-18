@@ -15,7 +15,8 @@ body {
     padding: 0;
 
 }
-.bg-color{
+
+.bg-color {
     background-color: #000000;
 }
 
@@ -84,6 +85,10 @@ body {
     margin: 0 auto;
 }
 
+.banner-content {
+    padding-bottom: 20px;
+}
+
 .banner-title {
     color: rgb(255, 255, 255);
     font-size: 5rem;
@@ -124,8 +129,8 @@ span {
     background-color: #1A1A1A;
     font-size: 1.2rem;
     font-weight: 600;
-    
-    
+
+
 }
 
 .banner-img {
@@ -204,19 +209,20 @@ span {
 
 .habit-section-text {
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 50px 0;
     text-align: center;
 }
-    
-.habit-section-title, .title {
+
+.habit-section-title,
+.title {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
 }
 
 .habit-description,
-.habit-images p, 
+.habit-images p,
 .description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
@@ -224,7 +230,7 @@ span {
 }
 
 .habit-section-image {
-    
+
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -249,39 +255,154 @@ span {
 border: 2px solid white;
 /*Run section starts here */
 
-.run-section{
+.run-section {
     margin: 0 auto;
     background-color: #000000;
 }
-.run-section-content{
+
+.run-section-content {
     background-color: #222222;
     width: 80%;
-    margin:  90px auto;
+    margin: 90px auto;
     margin-bottom: 30px;
     border-radius: 18px;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
-.run-section-text{
+
+.run-section-text {
     width: 40%;
     padding: 50px;
-   
+
 }
 
 .title,
-.description{
-    margin-bottom: 30px;  
+.description {
+    margin-bottom: 30px;
 }
 
-.run-section-img{
+.run-section-img {
     width: 40%;
     margin: 30px;
 }
 
-.run-section-img img{
+.run-section-img img {
     border-radius: 18px;
-    width: 100%;  
-    
+    width: 100%;
+
+}
+
+
+/*Shared style ends here*/
+/*Header section start here */
+
+.bmi-calculator {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bmi-calculator-chart {
+
+    width: 100%;
+    background-color: #222222;
+
+}
+
+.bmi-section-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.bmi-table {
+    width: 35%;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 20px;
+    border: 2px solid #353434;
+
+}
+
+th {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+td {
+    color: #696969;
+}
+
+.bmi-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-bottom: 55px;
+}
+
+
+.body-info {
+    width: 55%;
+}
+
+.bmi-body-info {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 30px;
+    grid-template-areas:
+        "info-1 info-2"
+        "info-3 info-4"
+        "info-5 info-5"
+    ;
+
+}
+
+.info-1 {
+    grid-area: info-1;
+    border-radius: 8px;
+}
+
+.info-2 {
+    grid-area: info-2;
+    border-radius: 8px;
+
+}
+
+.info-3 {
+    grid-area: info-3;
+    border-radius: 8px;
+
+}
+
+.info-4 {
+
+    grid-area: info-4;
+    border-radius: 8px;
+}
+
+.info-5 {
+    grid-area: info-5;
+    border-radius: 8px;
+
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #393939;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 13px 20px;
 }
 
 
@@ -291,13 +412,6 @@ border: 2px solid white;
 
 
 
-
-
-
-/*Shared style ends here*/
-/*Header section start here */
-
-
 /*Shared style ends here*/
 /*Header section start here */
 
@@ -308,4 +422,3 @@ border: 2px solid white;
 
 /*Shared style ends here*/
 /*Header section start here */
-

@@ -111,5 +111,9 @@
     .run-button{
         width: 100%;
     }
+    .bmi-calculator{
+        width: 85%;
+        margin: 0 auto;
+    }
     
 }
