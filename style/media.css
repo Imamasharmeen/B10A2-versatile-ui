@@ -66,7 +66,9 @@
         font-weight: 400;
     }
 
-    /* habit section*/
+    /*header section ends here*/
+    /*habit section starts here */
+
     .habit-section-title,
     .title {
         color: rgb(255, 255, 255);
@@ -93,8 +95,10 @@
         font-size: 1rem;
         font-weight: 500;
         padding: 13px 30px;
-
     }
+    
+    /*habit section ends here  
+    /*Run section starts here */
 
     .run-section-content {
         flex-direction: column;
@@ -112,11 +116,13 @@
         padding: 5px;
 
     }
-
+    
     .run-button,
     .body-info button {
         width: 100%;
     }
+    /*Run ends here*/
+    /*BMI section starts here */
 
     .bmi-calculator {
         width: 85%;
@@ -149,9 +155,11 @@
         padding: 7px 8px;
     }
 
+    /*BMI section ends here*/
+    /*Meet section starts here */
+
     .meet-section{
-        margin: 65px auto;
-        padding-bottom: 3px;
+        margin: 0 auto;
     }
     .meet-section-text {
         width: 80%;
@@ -160,5 +168,20 @@
         grid-template-columns: repeat(1, 1fr);
         
     }
+    /*Meet section ends here*/
+    /*footer section starts here */
+
+    .footer-content, 
+    .fitness-div2  {
+        flex-direction: column;
+    }
+     
+    .fitness-div1,
+    .fitness-div2,
+    .get-started{
+        width: 90%;
+        padding: 10px 0;
+    }
+/*footer section ends here*/
 
 }

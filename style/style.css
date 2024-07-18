@@ -24,6 +24,35 @@ body {
     display: none;
 }
 
+.habit-section-title,
+.title,
+.title1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habit-section-title,
+.title,
+.title1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habit-description,
+.habit-images p,
+.description,
+.fitness-div1 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.title,
+.title1 .description {
+    margin-bottom: 30px;
+}
+
 /*Shared style ends here*/
 /*Header section starts here */
 
@@ -94,7 +123,6 @@ body {
     font-size: 5rem;
     font-weight: 900;
     margin-bottom: 30px;
-
 }
 
 span {
@@ -129,8 +157,6 @@ span {
     background-color: #1A1A1A;
     font-size: 1.2rem;
     font-weight: 600;
-
-
 }
 
 .banner-img {
@@ -205,8 +231,6 @@ span {
 /*header section ends here*/
 /*habit section starts here */
 
-
-
 .habit-section-text {
     width: 80%;
     margin: 0 auto;
@@ -214,22 +238,6 @@ span {
     text-align: center;
 }
 
-.habit-section-title,
-.title,
-.title1 {
-    color: rgb(255, 255, 255);
-    font-size: 3rem;
-    font-weight: 900;
-}
-
-.habit-description,
-.habit-images p,
-.description,
-.fitness-div1 p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.9rem;
-    font-weight: 400;
-}
 
 .habit-section-image {
 
@@ -252,9 +260,7 @@ span {
 }
 
 
-
 /*habit section ends here  
-border: 2px solid white;
 /*Run section starts here */
 
 .run-section {
@@ -278,11 +284,6 @@ border: 2px solid white;
 
 }
 
-.title,
-.title1 .description {
-    margin-bottom: 30px;
-}
-
 .run-section-img {
     width: 40%;
     margin: 30px;
@@ -294,9 +295,8 @@ border: 2px solid white;
 
 }
 
-
-/*Shared style ends here*/
-/*Header section start here */
+/*Run ends here*/
+/*BMI section starts here */
 
 .bmi-calculator {
     width: 50%;
@@ -405,7 +405,7 @@ td,
 
 
 /*BMI section ends here*/
-/*Meet section start here */
+/*Meet section starts here */
 
 .meet-section {
     width: 100%;
@@ -454,8 +454,6 @@ td,
     bottom: 30px;
 }
 
-
-
 /*Meet section ends here*/
 /*footer section starts here */
 
@@ -501,14 +499,12 @@ td,
     width: 50%;
     display: flex;
     justify-content: space-between;
-
 }
 
 .get-started h3 {
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-weight: 700;
-
 }
 
 .get-started p {
