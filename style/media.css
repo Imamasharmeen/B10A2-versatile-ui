@@ -155,7 +155,42 @@
         padding: 7px 8px;
     }
 
-    /*BMI section ends here*/
+   /*BMI section ends here*/
+    /*Confidence section starts here */
+
+    .confidence-section {
+        flex-direction: column;
+        width: 85%;
+    }
+    .confidence-section-image {
+        width: 100%;
+    }
+    .image1,
+    .image2{
+        width: 100%;
+    }
+
+    .image1 {
+        top: 0px;
+    }
+
+    .image2 {
+       
+        left: 80px;
+        bottom: 20px;
+    }
+    .confidence-section-text {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .commitment{
+        flex-direction: column;
+        gap: 10px;
+     
+    }
+    
+    /*Confidence section ends here */
     /*Meet section starts here */
 
     .meet-section{

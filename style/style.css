@@ -2,6 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@font-face{
+    font-family: miama;
+    src: url(../font/Miama.ttf)
+}
+.font{
+    font-family: miama;
+    color: rgb(225, 225, 225);
+    font-size: 8rem;
+    font-weight: 400;
+    
+}
 /* shared scetion starts here*/
 
 body {
@@ -43,13 +54,16 @@ body {
 .habit-description,
 .habit-images p,
 .description,
-.fitness-div1 p {
+.fitness-div1 p,
+.choose-us {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 400;
 }
+
 .title,
-.title1 .description {
+.title1 .description,
+.choose-us {
     margin-bottom: 30px;
 }
 
@@ -123,13 +137,6 @@ body {
     font-size: 5rem;
     font-weight: 900;
     margin-bottom: 30px;
-}
-
-span {
-    font-family: "Allura", cursive;
-    font-size: 5rem;
-    font-weight: 500;
-    font-style: italic;
 }
 
 .banner-description {
@@ -405,6 +412,66 @@ td,
 
 
 /*BMI section ends here*/
+/*Confidence section starts here */
+
+
+.confidence-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.confidence-section-image {
+    width: 50%;
+
+}
+
+.confidence-section-image1,
+.confidence-section-image2 {
+    width: 70%;
+}
+
+.image1 {
+    position: relative;
+    top: 30px;
+
+}
+
+.image2 {
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+
+
+.confidence-section-text {
+    color: #FFFFFF;
+    width: 45%;
+    margin: 40px;
+
+}
+
+.title2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.commitment{
+    display: flex;
+    gap: 10px;
+ 
+}
+
+
+.commitment-section {
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+/*Confidence section ends here */
 /*Meet section starts here */
 
 .meet-section {
