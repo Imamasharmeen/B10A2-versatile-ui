@@ -64,7 +64,7 @@ body {
 .title,
 .title1 .description,
 .choose-us {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 /*Shared style ends here*/
@@ -172,10 +172,6 @@ body {
     position: relative;
 }
 
-.banner-img img {
-    width: 100%;
-    padding: 20px 20px 0;
-}
 
 .tutorial-1 {
     box-sizing: border-box;
@@ -307,7 +303,7 @@ body {
 
 .bmi-calculator {
     width: 50%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .bmi-calculator-chart {
@@ -425,7 +421,7 @@ td,
 }
 
 .confidence-section-image {
-    width: 50%;
+    width: 60%;
 
 }
 
@@ -449,7 +445,7 @@ td,
 
 .confidence-section-text {
     color: #FFFFFF;
-    width: 45%;
+    width: 40%;
     margin: 40px;
 
 }
@@ -550,6 +546,7 @@ td,
 
 .fitness-div1 {
     width: 50%;
+    padding-right: 30px;
 }
 
 .fitness-div1 h1 {
